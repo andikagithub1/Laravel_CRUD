@@ -44,6 +44,7 @@
                                     </div>
                                     <form class="user" action="/sesi/login" method="POST">
                                          @csrf
+
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                name="email" value="{{Session::get('email')}}"
@@ -62,12 +63,7 @@
 
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
