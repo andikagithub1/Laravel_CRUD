@@ -24,6 +24,12 @@
             <span>Data Departemen</span></a>
     </li>
 
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('karyawan.index') }}">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Data Karyawan</span></a>
+    </li>
+
     <!-- Divider -->
 
 

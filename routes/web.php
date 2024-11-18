@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DepartemenController;
+use App\Http\Controllers\KaryawanController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SessionController;
 
@@ -20,6 +21,7 @@ Route::get('/', function () {
 })->name('dashboard');
 
 Route::resource('departemen', DepartemenController::class)->middleware('iniLogin');
+Route::resource('karyawan',KaryawanController::class)->middleware('iniLogin');
 
 Route::get('/login',[SessionController::class,'index'])->middleware('iniTamu');
 Route::get('sesi',[SessionController::class,'index'])->middleware('iniTamu');

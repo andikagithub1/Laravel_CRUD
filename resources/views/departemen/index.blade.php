@@ -34,7 +34,7 @@
                                 <h6 class="m-0 font-weight-bold text-primary">Sisfo Pegawai Andika Putra Pratama</h6>
                             </div>
                             <div class="card-body">
-                                <a class="btn btn-primary mb-3" href="{{ route('departemen.create') }}">Tambah Data</a>
+                                <a class="btn btn-primary mb-3" href="{{ route('departemen.create') }}">Data Departemen</a>
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
